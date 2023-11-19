@@ -1,0 +1,165 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+}
+
+html, body {
+    height: 100%; /* Set the height of the html and body elements to 100% */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.head-js{
+    height:100%;
+    width:300px;
+    background-color:#fff;                                     
+    position:fixed;                             
+    top:0;    
+    left:0;          
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);   
+    font-size: .9rem;                            
+}
+
+.head-js h1{
+    text-align: center;
+    color: black;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: lighter;
+    padding-bottom: 5px;
+    padding-top: 12px;
+    margin-bottom: 0;
+    margin-top:0;
+    
+}
+
+.container{
+    max-height:620px;
+    height: 100%; /* Set the height of the container element to 100% */
+    display: flex; /* Use flexbox layout */
+}
+
+.topics{   
+    align-items: center;
+    padding-inline-start: 0;      /* removes bullet points */
+    margin-block: 0;
+    height: 100%;
+    flex-wrap:wrap;    
+    font-size: 1.1rem;         
+}
+
+.topics a{
+    text-decoration:none;
+    color: #4d4e53; 
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+.navbar{
+    top: 0;
+    left: 0;
+    height: 100%; /* Set the height to 100% of the viewport height */
+    width: 310px; /* Set the desired width of the sidebar */
+    overflow-y: auto;   
+    overflow-x:hidden;   
+}
+
+.navbar header{       /* tricking freeCodeCamp checker */
+    display: none;
+}
+
+.divider {
+    border-bottom: 1px solid #4d4e53;
+    margin: 11px 0;
+    width:300px;    
+}
+
+.topics li:not(.divider){
+    padding-left: 30px;    
+}
+
+nav .topics li:last-of-type{
+    padding-bottom: 20px;
+}
+
+main{
+    position: absolute;
+    left:300px;   
+    padding-left: 10px;
+}
+
+p{
+    font-size: 1.3rem;
+    color: #4d4e53; 
+}
+
+main{
+    margin-right: 20px;
+}
+
+main header{
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 1.8rem;
+    padding-left:28px;
+    margin-bottom: 18px;
+    
+}
+
+#Introduction{
+    padding-top:30px;
+}
+
+.description{
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: lighter;
+    color: #4d4e53; 
+    font-size: 0.96em;
+    padding-left:43px;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 15px;   
+}
+
+.bullet{
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: lighter;
+    color: #4d4e53; 
+    font-size: 0.96em;
+    padding-left:103px;
+    line-height: 1.5;
+}
+
+.bullet li{
+    margin-top: 0;
+    margin-bottom: 15px; 
+}
+
+code{
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 0.96em;
+    color: #4d4e53;
+    width:90%;
+    margin-left: 5%;
+    margin-right: auto;   
+}
+
+
+.inner-bullet{
+    padding-left:60px;
+}
+
+
+
+
